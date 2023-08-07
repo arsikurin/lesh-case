@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lesh-case"
+version = "0.1.0"
+description = ""
+authors = ["arsikurin <2024kurin.av@student.letovo.ru>"]
+readme = "README.md"
+packages = [{include = "lesh_case"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+pandas = "^2.0.3"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
